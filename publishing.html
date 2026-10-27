@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Penerbitan Buku — BookSpace</title>
+    <meta
+      name="description"
+      content="Ajukan naskah dan jelajahi layanan penerbitan digital BookSpace."
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg" aria-label="Navigasi utama">
+        <div class="container">
+          <a class="navbar-brand brand-logo" href="index.html">
+            bookspace<span>.</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Buka navigasi"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalog.html">Katalog Buku</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="subscription.html">Langganan</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="publishing.html"
+                  aria-current="page"
+                >
+                  Penerbitan
+                </a>
+              </li>
+            </ul>
+
+            <a href="#submissionForm" class="btn btn-brand">Ajukan Naskah</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="publishing-hero">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+              <span class="eyebrow">BOOKSPACE PUBLISHING</span>
+
+              <h1 class="hero-title mt-3">
+                Cerita Anda.
+                <br />
+                <span>Kesempatan baru.</span>
+              </h1>
+
+              <p class="hero-description mt-4">
+                Mulai perjalanan penerbitan Anda melalui proses pengajuan naskah
+                yang terstruktur dan layanan digital yang dirancang untuk
+                membantu karya Anda berkembang.
+              </p>
+
+              <a href="#submissionForm" class="btn btn-brand btn-lg mt-3">
+                Mulai Pengajuan
+              </a>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="publishing-art" aria-hidden="true">
+                <div class="publishing-art-sheet art-sheet-back"></div>
+                <div class="publishing-art-sheet art-sheet-middle"></div>
+                <div class="publishing-art-sheet art-sheet-front">
+                  <span>YOUR NEXT CHAPTER</span>
+                  <strong>Every story deserves a space.</strong>
+                  <span>BOOKSPACE PUBLISHING</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding" aria-labelledby="serviceHeading">
+        <div class="container">
+          <span class="eyebrow">LAYANAN KAMI</span>
+          <h2 id="serviceHeading" class="section-title mt-2">
+            Dukungan untuk perjalanan karya Anda.
+          </h2>
+
+          <div class="row g-4 mt-2">
+            <div class="col-md-6 col-lg-4">
+              <article class="service-card h-100">
+                <div class="service-icon" aria-hidden="true">01</div>
+                <h3>Pengajuan Naskah</h3>
+                <p>
+                  Ajukan informasi karya untuk ditinjau sesuai persyaratan dan
+                  proses editorial yang berlaku.
+                </p>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="service-card h-100">
+                <div class="service-icon" aria-hidden="true">02</div>
+                <h3>Persiapan Digital</h3>
+                <p>
+                  Layanan persiapan naskah dan format digital sesuai ruang
+                  lingkup paket yang dipilih.
+                </p>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="service-card h-100">
+                <div class="service-icon" aria-hidden="true">03</div>
+                <h3>Distribusi Digital</h3>
+                <p>
+                  Pelajari opsi distribusi digital yang dapat ditawarkan
+                  berdasarkan persetujuan dan ketentuan yang berlaku.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <p class="demo-disclaimer mt-4">
+            Ketersediaan layanan, ruang lingkup pekerjaan, harga, dan ketentuan
+            hak cipta perlu dikonfirmasi sebelum transaksi nyata.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="section-padding featured-section"
+        aria-labelledby="submissionHeading"
+      >
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-5">
+              <span class="eyebrow">LANGKAH PERTAMA</span>
+              <h2 id="submissionHeading" class="section-title mt-2">
+                Ceritakan tentang karya Anda.
+              </h2>
+
+              <p class="text-secondary mt-3">
+                Lengkapi formulir untuk menyiapkan pengajuan naskah. Pada tahap
+                ini, formulir masih berupa demonstrasi antarmuka dan belum
+                mengirimkan data ke server.
+              </p>
+
+              <ol class="publishing-steps mt-4">
+                <li>
+                  <strong>Isi informasi naskah</strong>
+                  <span>Masukkan judul, kategori, dan deskripsi singkat.</span>
+                </li>
+                <li>
+                  <strong>Tinjau persyaratan</strong>
+                  <span
+                    >Pastikan Anda memiliki hak untuk mengajukan karya.</span
+                  >
+                </li>
+                <li>
+                  <strong>Proses editorial</strong>
+                  <span
+                    >Pengajuan akan ditinjau setelah alur backend
+                    tersedia.</span
+                  >
+                </li>
+              </ol>
+            </div>
+
+            <div class="col-lg-7">
+              <form id="submissionForm" class="submission-form" novalidate>
+                <div class="form-heading mb-4">
+                  <h3 class="h4 fw-bold">Formulir pengajuan naskah</h3>
+                  <p class="text-secondary mb-0">
+                    Kolom bertanda * wajib diisi.
+                  </p>
+                </div>
+
+                <div class="mb-3">
+                  <label for="authorName" class="form-label">
+                    Nama penulis atau perwakilan *
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="authorName"
+                    name="authorName"
+                    autocomplete="name"
+                    maxlength="120"
+                    required
+                  />
+                  <div class="invalid-feedback">Nama wajib diisi.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="authorEmail" class="form-label">
+                    Email aktif *
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="authorEmail"
+                    name="authorEmail"
+                    autocomplete="email"
+                    maxlength="254"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Masukkan alamat email yang valid.
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="applicantType" class="form-label">
+                    Jenis pemohon *
+                  </label>
+                  <select
+                    id="applicantType"
+                    name="applicantType"
+                    class="form-select"
+                    required
+                  >
+                    <option value="">Pilih jenis pemohon</option>
+                    <option value="individual">Penulis independen</option>
+                    <option value="publisher">Penerbit</option>
+                    <option value="institution">Institusi</option>
+                  </select>
+                  <div class="invalid-feedback">Pilih jenis pemohon.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="manuscriptTitle" class="form-label">
+                    Judul naskah *
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="manuscriptTitle"
+                    name="manuscriptTitle"
+                    maxlength="200"
+                    required
+                  />
+                  <div class="invalid-feedback">Judul naskah wajib diisi.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="manuscriptCategory" class="form-label">
+                    Kategori naskah *
+                  </label>
+                  <select
+                    id="manuscriptCategory"
+                    name="manuscriptCategory"
+                    class="form-select"
+                    required
+                  >
+                    <option value="">Pilih kategori</option>
+                    <option value="fiction">Fiksi</option>
+                    <option value="education">Pendidikan</option>
+                    <option value="business">Bisnis</option>
+                    <option value="self-development">Pengembangan Diri</option>
+                    <option value="technology">Teknologi</option>
+                    <option value="other">Lainnya</option>
+                  </select>
+                  <div class="invalid-feedback">Pilih kategori naskah.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="manuscriptDescription" class="form-label">
+                    Deskripsi naskah *
+                  </label>
+                  <textarea
+                    id="manuscriptDescription"
+                    name="manuscriptDescription"
+                    class="form-control"
+                    rows="5"
+                    maxlength="3000"
+                    required
+                  ></textarea>
+                  <div class="invalid-feedback">
+                    Deskripsi naskah wajib diisi.
+                  </div>
+                </div>
+
+                <div class="form-check mb-4">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="rightsConfirmation"
+                    name="rightsConfirmation"
+                    required
+                  />
+                  <label class="form-check-label" for="rightsConfirmation">
+                    Saya menyatakan memiliki hak atau kewenangan untuk
+                    mengajukan naskah ini dan memahami bahwa pengajuan tidak
+                    menjamin penerimaan maupun penerbitan. *
+                  </label>
+                  <div class="invalid-feedback">
+                    Konfirmasi hak atau kewenangan pengajuan diperlukan.
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-brand w-100">
+                  Periksa Pengajuan
+                </button>
+
+                <p class="small text-secondary mt-3 mb-0">
+                  Versi demo: data formulir tidak dikirim atau disimpan pada
+                  server.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-bottom">
+          <p class="mb-0">
+            © <span id="currentYear"></span> BookSpace. Seluruh hak cipta
+            dilindungi.
+          </p>
+          <a href="index.html" class="text-link">Kembali ke beranda</a>
+        </div>
+      </div>
+    </footer>
+
+    <div id="appToast" class="app-toast" role="status" aria-live="polite"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

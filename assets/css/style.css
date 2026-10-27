@@ -599,3 +599,486 @@ select:focus-visible {
     animation-duration: 0.01ms !important;
   }
 }
+
+
+
+/* ========================================
+   KATALOG BUKU
+======================================== */
+
+.catalog-hero,
+.subscription-hero {
+  padding: 75px 0 55px;
+  background: #f3f1e9;
+}
+
+.catalog-intro {
+  max-width: 650px;
+  color: var(--color-muted);
+  font-size: 1.05rem;
+}
+
+.catalog-search {
+  display: flex;
+  max-width: 720px;
+  gap: 12px;
+}
+
+.catalog-search .form-control {
+  min-height: 52px;
+  padding: 12px 18px;
+  border-color: var(--color-border);
+  border-radius: 999px;
+}
+
+.catalog-search .btn {
+  flex-shrink: 0;
+}
+
+.catalog-toolbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.catalog-controls {
+  display: flex;
+  gap: 12px;
+}
+
+.catalog-controls .form-select {
+  min-width: 165px;
+  border-color: var(--color-border);
+  border-radius: 12px;
+}
+
+.empty-state {
+  padding: 65px 20px;
+  text-align: center;
+}
+
+.empty-state-icon {
+  margin-bottom: 12px;
+  color: var(--color-forest);
+  font-size: 3rem;
+}
+
+.demo-disclaimer {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+/* ========================================
+   LANGGANAN
+======================================== */
+
+.plan-card {
+  padding: 32px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+  background: white;
+}
+
+.plan-card-featured {
+  border: 2px solid var(--color-forest);
+  background: #f8faf5;
+}
+
+.plan-badge {
+  display: inline-block;
+  padding: 6px 11px;
+  border-radius: 999px;
+  background: var(--color-lime);
+  color: var(--color-forest-dark);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
+
+.plan-name {
+  color: var(--color-forest);
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.plan-price {
+  margin: 25px 0;
+  color: var(--color-forest);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.plan-price span {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.plan-features {
+  display: grid;
+  gap: 14px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.plan-features li {
+  position: relative;
+  padding-left: 28px;
+  color: #555e54;
+}
+
+.plan-features li::before {
+  position: absolute;
+  left: 0;
+  color: var(--color-forest);
+  content: "✓";
+  font-weight: 800;
+}
+
+.policy-card {
+  padding: 28px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: white;
+}
+
+/* ========================================
+   PORTAL PENERBITAN
+======================================== */
+
+.publishing-hero {
+  overflow: hidden;
+  padding: 80px 0;
+  background: #f3f1e9;
+}
+
+.publishing-art {
+  position: relative;
+  display: flex;
+  min-height: 350px;
+  align-items: center;
+  justify-content: center;
+}
+
+.publishing-art-sheet {
+  position: absolute;
+  width: 205px;
+  height: 270px;
+  border-radius: 8px;
+  box-shadow: 0 15px 30px rgba(30, 50, 35, 0.12);
+}
+
+.art-sheet-back {
+  background: #d8c9eb;
+  transform: translate(-45px, 5px) rotate(-13deg);
+}
+
+.art-sheet-middle {
+  background: #edc5a8;
+  transform: translate(35px, 5px) rotate(12deg);
+}
+
+.art-sheet-front {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  background: var(--color-forest);
+  color: white;
+  transform: rotate(-2deg);
+}
+
+.art-sheet-front span {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.art-sheet-front strong {
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.service-card {
+  padding: 28px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: white;
+}
+
+.service-icon {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  border-radius: 14px;
+  background: var(--color-sage);
+  color: var(--color-forest);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.service-card h3 {
+  margin-bottom: 12px;
+  color: var(--color-forest);
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.service-card p {
+  margin-bottom: 0;
+  color: var(--color-muted);
+  font-size: 0.94rem;
+}
+
+.publishing-steps {
+  display: grid;
+  gap: 24px;
+  padding-left: 24px;
+}
+
+.publishing-steps li {
+  padding-left: 8px;
+}
+
+.publishing-steps strong,
+.publishing-steps span {
+  display: block;
+}
+
+.publishing-steps strong {
+  color: var(--color-forest);
+}
+
+.publishing-steps span {
+  margin-top: 5px;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.submission-form {
+  padding: clamp(22px, 4vw, 38px);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+  background: white;
+}
+
+.submission-form .form-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.submission-form .form-control,
+.submission-form .form-select {
+  min-height: 48px;
+  border-color: #dcded6;
+  border-radius: 11px;
+}
+
+.submission-form textarea.form-control {
+  min-height: 130px;
+}
+
+.submission-form .form-check-input {
+  border-color: #a7b2a5;
+}
+
+.submission-form .form-check-input:checked {
+  background-color: var(--color-forest);
+  border-color: var(--color-forest);
+}
+
+@media (max-width: 767.98px) {
+  .catalog-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .catalog-controls {
+    flex-direction: column;
+  }
+
+  .catalog-controls .form-select {
+    width: 100%;
+  }
+
+  .catalog-search {
+    flex-direction: column;
+  }
+
+  .catalog-search .btn {
+    width: 100%;
+  }
+
+  .catalog-hero,
+  .subscription-hero,
+  .publishing-hero {
+    padding: 50px 0;
+  }
+
+  .publishing-art {
+    min-height: 300px;
+  }
+
+  .publishing-art-sheet {
+    width: 175px;
+    height: 230px;
+  }
+
+  .art-sheet-front strong {
+    font-size: 1.7rem;
+  }
+}
+
+
+
+/* ========================================
+   DETAIL BUKU
+======================================== */
+
+.book-detail-art {
+  display: flex;
+  min-height: 420px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: var(--radius-large);
+  background: var(--book-bg, var(--color-sage));
+}
+
+.book-detail-cover {
+  width: 210px;
+  min-height: 300px;
+  padding: 24px;
+}
+
+.book-detail-cover strong {
+  font-size: 1.8rem;
+}
+
+.book-detail-description {
+  max-width: 680px;
+  color: #555e54;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.reader-notice {
+  padding: 20px;
+  border: 1px solid #dce5d5;
+  border-radius: 14px;
+  background: #f0f4eb;
+  color: var(--color-forest);
+}
+
+.reader-notice p {
+  color: #5f695e;
+  line-height: 1.7;
+}
+
+/* ========================================
+   PEMBACA BUKU
+======================================== */
+
+.reader-page {
+  min-height: 100vh;
+  background: #efeee8;
+}
+
+.reader-header {
+  padding: 15px 0;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-paper);
+}
+
+.reader-book-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.reader-book-title small {
+  margin-top: 2px;
+  color: var(--color-muted);
+  font-size: 0.72rem;
+  font-weight: 400;
+}
+
+.reader-toolbar {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--color-border);
+  background: white;
+}
+
+.reader-main {
+  min-height: calc(100vh - 150px);
+}
+
+.reader-content {
+  display: flex;
+  justify-content: center;
+  padding: 35px 16px 60px;
+}
+
+.reader-paper {
+  width: 100%;
+  max-width: 850px;
+  min-height: 570px;
+  padding: clamp(25px, 6vw, 70px);
+  border: 1px solid #e6e3da;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 8px 35px rgba(35, 45, 35, 0.05);
+}
+
+.reader-message {
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.reader-message .section-title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+.reader-message .reader-notice {
+  margin-top: 28px;
+}
+
+@media (max-width: 575.98px) {
+  .book-detail-art {
+    min-height: 330px;
+  }
+
+  .book-detail-cover {
+    width: 180px;
+    min-height: 260px;
+  }
+
+  .reader-header .brand-logo {
+    font-size: 1.35rem;
+  }
+
+  .reader-book-title {
+    max-width: 145px;
+    font-size: 0.8rem;
+  }
+
+  .reader-content {
+    padding: 18px 10px 35px;
+  }
+
+  .reader-paper {
+    min-height: 480px;
+    padding: 24px 18px;
+  }
+}

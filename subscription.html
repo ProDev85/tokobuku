@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Langganan — BookSpace</title>
+    <meta
+      name="description"
+      content="Lihat pilihan paket langganan membaca buku digital BookSpace."
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg" aria-label="Navigasi utama">
+        <div class="container">
+          <a class="navbar-brand brand-logo" href="index.html">
+            bookspace<span>.</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Buka navigasi"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalog.html">Katalog Buku</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="subscription.html"
+                  aria-current="page"
+                >
+                  Langganan
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="publishing.html">Penerbitan</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="subscription-hero text-center">
+        <div class="container">
+          <span class="eyebrow">LANGGANAN BOOKSPACE</span>
+          <h1 class="section-title mt-3">
+            Temukan lebih banyak dalam setiap bacaan.
+          </h1>
+          <p class="catalog-intro mx-auto">
+            Pilih paket yang sesuai dengan kebutuhan membaca Anda. Nikmati akses
+            buku digital sesuai ketentuan paket.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-padding" aria-labelledby="plansHeading">
+        <div class="container">
+          <h2 id="plansHeading" class="visually-hidden">
+            Pilihan paket langganan
+          </h2>
+
+          <div class="row justify-content-center g-4">
+            <div class="col-md-6 col-lg-5">
+              <article class="plan-card h-100">
+                <span class="eyebrow">UNTUK MEMULAI</span>
+                <h3 class="plan-name mt-3">Basic</h3>
+                <p class="text-secondary">
+                  Untuk pembaca yang ingin membangun kebiasaan membaca.
+                </p>
+
+                <p class="plan-price">Rp29.000 <span>/ bulan</span></p>
+
+                <hr />
+
+                <ul class="plan-features">
+                  <li>Akses buku sesuai katalog paket</li>
+                  <li>Format digital yang didukung</li>
+                  <li>Akses melalui website yang didukung</li>
+                  <li>Pengelolaan langganan melalui akun</li>
+                </ul>
+
+                <button
+                  type="button"
+                  class="btn btn-outline-brand w-100 mt-3"
+                  data-plan="Basic"
+                >
+                  Pilih Basic
+                </button>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-5">
+              <article class="plan-card plan-card-featured h-100">
+                <span class="plan-badge">PILIHAN PREMIUM</span>
+                <h3 class="plan-name mt-3">Premium</h3>
+                <p class="text-secondary">
+                  Untuk pembaca yang ingin menjelajahi lebih banyak pilihan.
+                </p>
+
+                <p class="plan-price">Rp59.000 <span>/ bulan</span></p>
+
+                <hr />
+
+                <ul class="plan-features">
+                  <li>Akses ke katalog Premium yang tersedia</li>
+                  <li>Format digital yang didukung</li>
+                  <li>Akses melalui website yang didukung</li>
+                  <li>Pengelolaan langganan melalui akun</li>
+                </ul>
+
+                <button
+                  type="button"
+                  class="btn btn-brand w-100 mt-3"
+                  data-plan="Premium"
+                >
+                  Pilih Premium
+                </button>
+              </article>
+            </div>
+          </div>
+
+          <p class="demo-disclaimer text-center mt-4">
+            Harga dan manfaat paket di atas merupakan contoh untuk desain.
+            Paket, harga, pajak, serta ketentuan akhir harus dikonfirmasi
+            sebelum layanan diluncurkan.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-padding featured-section">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <article class="policy-card h-100">
+                <h2 class="h5 fw-bold">Bagaimana langganan bekerja?</h2>
+                <p class="text-secondary mt-3">
+                  Setelah pembayaran diverifikasi, sistem akan mengaktifkan hak
+                  akses sesuai paket dan periode langganan pengguna.
+                </p>
+                <p class="text-secondary mb-0">
+                  Akses buku hanya tersedia selama pengguna memiliki hak akses
+                  yang sah dan buku tersebut termasuk dalam katalog paketnya.
+                </p>
+              </article>
+            </div>
+
+            <div class="col-lg-6">
+              <article class="policy-card h-100">
+                <h2 class="h5 fw-bold">Bagaimana jika langganan dibatalkan?</h2>
+                <p class="text-secondary mt-3">
+                  Pembatalan menghentikan perpanjangan otomatis berikutnya.
+                  Akses tetap aktif sampai akhir periode pembayaran yang sudah
+                  berjalan.
+                </p>
+                <p class="text-secondary mb-0">
+                  Setelah periode berakhir, akses yang bergantung pada langganan
+                  akan dihentikan kecuali pengguna memiliki hak akses lain yang
+                  masih berlaku.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-bottom">
+          <p class="mb-0">
+            © <span id="currentYear"></span> BookSpace. Seluruh hak cipta
+            dilindungi.
+          </p>
+          <a href="catalog.html" class="text-link">Jelajahi katalog</a>
+        </div>
+      </div>
+    </footer>
+
+    <div id="appToast" class="app-toast" role="status" aria-live="polite"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
